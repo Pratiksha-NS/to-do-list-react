@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     color: hsl(198, 1%, 29%);
-    font-family: "Architects Daughter", cursive;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 130%;
   }
@@ -35,7 +35,7 @@ body {
   .heading h1 {
     transform: rotate(2deg);
     padding: 0.2rem 1.2rem;
-    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    border-radius: 10px;
     background-color: #fdcb6e;
     font-size: 1.5rem;
   }
@@ -48,7 +48,7 @@ body {
     border-bottom-left-radius: 3px 15px;
     border: solid 3px transparent;
     border-bottom: dashed 3px #fdcb6e;
-    font-family: "Architects Daughter", cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: hsla(260, 2%, 25%, 0.7);
     width: 70%;
@@ -58,21 +58,20 @@ body {
   button {
     padding: 0;
     border: none;
-    font-family: "Architects Daughter", cursive;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     padding-bottom: 3px;
     border-radius: 5px;
     background-color: #ffeaa7;
   }
   .delete{
-    margin-left: 80px;
-    padding: 5px;
     border: none;
-    font-family: "Architects Daughter", cursive;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    padding-bottom: 3px;
+    padding: 5px;
     border-radius: 5px;
-    background-color: #ffeaa7;
+    margin-left: 5px;
+    
   }
   button span {
     background: #f1f5f8;
