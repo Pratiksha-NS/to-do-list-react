@@ -42,7 +42,7 @@ function App() {
           {newItem.map((todoItem) => (
             <li key={todoItem.id}>
               {todoItem.text}
-              <button onClick={() => deleteItem(todoItem.id)} className='delete' >Delete</button>
+              <button onClick={() => deleteItem(todoItem.id)} className='delete' ><i class="fa-solid fa-trash"></i></button>
             </li>
           ))}
         </ul>
